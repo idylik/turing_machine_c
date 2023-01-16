@@ -407,78 +407,9 @@ void freeMemoire(int nbLignes, char** descriptions, char *ruban, transition** ta
 // ༽つ۞﹏۞༼つ
 
 int main() {
-// ous pouvez ajouter des tests pour les fonctions ici
-
-    //char *str = "4444444444444444444444444444444444444444444444444444444444444444";
-    //printf("La longueur de \"%s\" est de %u.\n", str, strlen2(str));
-
-    //Crée un descripteur de fichier (remonter d'un niveau pour avoir le dossier src)
-    //FILE *pointeurFichier = NULL;
-    //pointeurFichier = fopen("../six_lines", "r");
-    //printf("Nombre de lignes: %d", no_of_lines(pointeurFichier));
-    //printf("\nNombre caracteres ligne: %d\n", readline(pointeurFichier, NULL, 4));
-    //fclose(pointeurFichier); //Important
-
-    //FILE* test_file = NULL;
-    //test_file = fopen("../simple.txt", "r");
-
-    //char dabord = fgetc(test_file);
-    //printf("Le caractere avant nLines: %c\n", dabord);
-
-    //no_of_lines(test_file);
-    //char apres = fgetc(test_file);
-    //printf("Le caractere apres nLines: %c\n", apres);
+//Vous pouvez ajouter des tests pour les fonctions ici
 
 
-    //char *pointeurTableau = malloc(sizeof(char)*100);
-    //char pointeurTableau[10];
-    //pointeurTableau[0] = 'a';
-    //pointeurTableau[1] = 'b';
-    //pointeurTableau[2] = 'c';
-    //pointeurTableau[3] = 'd';
-    //pointeurTableau[4] = '\0';
-
-    //printf("pointeurTableau: %s\n", pointeurTableau);
-
-    //char copieTableau[10];
-
-    //memcpy2(copieTableau, pointeurTableau, 5);
-
-    //printf("copieTableau: %s\n", copieTableau);
-
-    //Crée un descripteur de fichier (remonter d'un niveau pour avoir le dossier src)
-    //FILE* pointeurFichier = fopen("../simple.txt", "r");
-    //printf("Nombre de lignes: %d", no_of_lines(pointeurFichier));
-    //fclose(pointeurFichier);
-
-    //printf("fonction readline: \n");
-
-    //char *pointeurOut = NULL;
-
-    //printf("nombre de caracteres: %d\n", readline(test_file, &pointeurOut, 100));
-
-    //printf("chaine ecrite dans memoire: %c", *pointeurOut);
-
-    //fclose(test_file);
-
-    //char *maChaine = "(<<,1)->(<<,1,G)";
-
-    //parse_line(maChaine, strlen2(maChaine));
-
-    //FILE *descriptionMachine = NULL;
-    //descriptionMachine = fopen("../has_five_ones", "r");
-
-    char *input = "101010101";
-
-    char* nomFichierMachine = "../has_five_ones";
-
-    execute(nomFichierMachine, input);
-
-    /*char espace = ' ';
-    char zero = '0';
-
-    printf("espace (int): %d", (int)espace);
-    printf("zero (int): %d", (int)zero); */
 
     return 0;
 }
