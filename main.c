@@ -326,7 +326,6 @@ error_code execute(char *machine_file, char *input) {
 
                     //Changer taille du ruban au besoin
                     if (indexTete >= rubanSize) {
-                        //printf("changement taille ruban\n");
                         //Doubler taille ruban
                         ruban = realloc(ruban, rubanSize*2);
 
